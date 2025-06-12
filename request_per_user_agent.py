@@ -17,16 +17,6 @@ with open(log_file, 'r') as file:
         # Get the matched group or None if no match
         agent = agent_data.group(1) if agent_data else None
         if agent:
-            # Categorize user agents based on OS and browser
-            # if 'Linux' in agent and 'Chrome' in agent:
-            #     the_agent = 'Chrome(Linux)'
-            # elif 'Mac' in agent and 'Chrome' in agent  and 'Safari' not in agent:
-            #     the_agent = 'Chrome(Mac)'
-            # elif 'Mac' in agent and 'Chrome' not in agent  and 'Safari' in agent:
-            #     the_agent = 'Safari(Mac)'
-            # elif 'Windows' in agent and 'Chrome' in agent:
-            #     the_agent = 'Chrome(Windows)'
-             # Categorize user agent by browser/platform
             if "Chrome" in agent and "Safari" in agent:
                 if "Macintosh" in agent:
                     the_agent = "Chrome (Mac)"
