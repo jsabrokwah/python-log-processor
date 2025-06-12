@@ -23,6 +23,8 @@ Categorizes and counts HTTP requests by user agent and operating system.
 ```
 python request_per_user_agent.py
 ```
+### Results
+[Click here to see screenshot of results](screenshots/request_per_user_agent_results.png)
 
 ### 2. `request_per_10_sec.py`
 
@@ -31,6 +33,8 @@ Counts how many requests each IP address makes within a 10-second window.
 ```
 python request_per_10_sec.py
 ```
+### Results
+[Click here to see screenshot of results](screenshots/request_per_10_sed_results.png)
 
 ### 3. `request_per_endpoint.py`
 
@@ -39,6 +43,8 @@ Analyzes which endpoints are being accessed and how frequently.
 ```
 python request_per_endpoint.py
 ```
+### Results
+[Click here to see screenshot of results](screenshots/requests_per_endpoint_results.png)
 
 ### 4. `helper.py`
 
